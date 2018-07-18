@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FortesFamily from './fortesFamily'
+import {Primeiro, Segundo} from './component'
 
 ReactDOM.render(
     <div>
-        <FortesFamily />
+        <Primeiro value='ze ruela' />
+        <Segundo />
     </div>
 
 , document.getElementById('app'))
