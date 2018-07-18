@@ -1,5 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
+import {Primeiro, Segundo} from './component'
 
-ReactDOM.render(<Component value='testevalue!'/>, document.getElementById('app'))
+ReactDOM.render(
+    <div>
+        <Primeiro value='ze ruela' />
+        <Segundo />
+    </div>
+
+, document.getElementById('app'))
